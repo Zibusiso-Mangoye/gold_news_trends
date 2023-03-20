@@ -2,3 +2,10 @@
 #
 # Documentation for this file format can be found in "The Data Catalog"
 # Link: https://kedro.readthedocs.io/en/stable/data/data_catalog.html
+market_data:
+  type: pandas.CSVDataSet
+  filepath: data/market_data_1day.csv
+  credentials: twelvedata
+  load_args:
+    sep: ','
+
