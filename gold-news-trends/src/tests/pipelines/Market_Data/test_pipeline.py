@@ -1,5 +1,5 @@
 """
-This is a boilerplate test file for pipeline 'Market_Data'
+This is a boilerplate test file for pipeline 'market_data'
 generated using Kedro 0.18.6.
 Please add your pipeline tests here.
 
