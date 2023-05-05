@@ -2,4 +2,7 @@
 
 ## Overview
 
-This is a data collection project with one pipeline that gets market data from twelvedata api and stores it in db.
+This is a data collection project with two pipelines that get news data and market data about gold commodity and stores it in postgres database.
+
+
+

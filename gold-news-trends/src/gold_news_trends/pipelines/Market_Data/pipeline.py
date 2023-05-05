@@ -1,10 +1,5 @@
-"""
-This is a boilerplate pipeline 'market_data'
-generated using Kedro 0.18.6
-"""
-
 from kedro.pipeline import Pipeline, node, pipeline
-
+from .nodes import get_news_data
 
 def create_pipeline(**kwargs) -> Pipeline:
     return pipeline([])
